@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Visualiser</title>
+</head>
+
+<body>
+    <div>
+        <div id="formcontainer">
+            <label for="numbers">Nr numere:</label>
+            <input type="number" id="numbers" min="5" max="100" value="55"><br>
+            <label for="minnumber">Intre</label>
+            <input type="number" id="minnumber" value="1">
+            <label for="maxnumber">si</label>
+            <input type="number" id="maxnumber" value="100">
+            <button id="submit" onclick="verify()">Genereaza</button>
+        </div>
+
+        <div id="main"></div>
+
+        <div id="btncontainer">
+            <button onclick="selectionsort(numbers)">Selection sort</button>
+            <button onclick="insertionsort(numbers)">Insertion sort</button>
+            <button onclick="qsort()">Quick sort</button>
+            <button onclick="modifyDelay(-1)">- delay</button>
+            <button onclick="modifyDelay()">+ delay</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="insertionsort.js"></script>
+    <script src="selectionsort.js"></script>
+    <script src="quicksort.js"></script>
+    <script src="mergesort.js"></script>
+</body>
+
+</html>

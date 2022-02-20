@@ -1,0 +1,88 @@
+body
+{
+    background-color: rgb(59, 59, 59);
+}
+
+#submit
+{
+    height: auto;
+    width: auto;
+}
+
+input
+{
+    width: 50px;
+}
+
+#main
+{
+    height: 70%;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
+
+.number
+{
+    width: 30px;
+    position: relative;
+    background-color: tomato;
+    display: inline-block;
+    border: 2px solid blanchedalmond;
+    border-bottom: 0px;
+    padding-bottom: 0.2%;
+}
+
+.number span
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+}
+
+#btncontainer
+{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#btncontainer button
+{
+    background-color: tomato;
+    padding: 20px;
+}
+
+#formcontainer
+{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    background-color: rgb(250, 121, 99);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#formcontainer input, #formcontainer label
+{
+    margin-top: 5px;
+}
+#formcontainer button
+{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(221, 103, 82);
+    font-size: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
